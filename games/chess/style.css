@@ -1,0 +1,105 @@
+*
+{
+    font-family: Sans-Serif, Arial, Tahoma;
+    text-decoration:none;
+    cursor:default;
+}
+html
+{
+    overflow:hidden;
+}
+body
+{
+    background-color: #f0f0f0;
+}
+#table
+{
+    -moz-box-shadow: 4px 6px 8px #000;
+    -webkit-box-shadow: 4px 6px 8px #000;
+    -o-box-shadow: 4px 6px 8px #000;
+    
+    -moz-transform:translate(100px) rotate(20deg) matrix(1, -0.03, -0.3, 0.7, 40px, -140px);
+    -moz-transform-origin:0% 50%;
+
+    -webkit-transform-origin:0% 50%;
+    -webkit-transform:translate(100px) rotate(20deg) matrix(1, -0.03, -0.3, 0.7, 10, -140);
+
+    -o-transform-origin:0% 50%;
+    -o-transform:translate(100px) rotate(20deg) matrix(1, -0.03, -0.3, 0.7, 40, -140);
+    
+    width:600px;
+    height:620px;
+    border:solid 1px #000;
+}
+
+#table>table
+{
+    width:100%;
+    height:100%;
+}
+
+.tableCell
+{
+    border:solid 1px #777;
+    height:60px;
+    overflow:hidden;
+}
+.dark-cell
+{
+    background-color: #a44;
+}
+.light-cell
+{
+    background-color: #fff;
+}
+.tableCell img
+{
+    -moz-transform: matrix(1, 0, 0.6, 1, 0px, 0px);
+    -webkit-transform: matrix(1, 0, 0.6, 1, 0, 0);
+    -o-transform: matrix(1, 0, 0.6, 1, 0px, 0px);
+    position: absolute;
+    margin-top:-55px;
+    margin-left:-10px;
+}
+.tableCell img.highter
+{
+    margin-top:-70px !IMPORTANT;
+}
+.selectedColl
+{
+    -moz-box-shadow: 0px 0px 30px #00f;
+    -o-box-shadow: 0px 0px 30px #00f;
+    -webkit-box-shadow: 0px 0px 30px #00f;
+}
+.tableBorder
+{
+    border:solid 1px #777;
+    background-color:#ffa;
+    height:72px;
+    width:14px;
+    overflow:hidden;
+    text-align:center;
+}
+.tableBorderTop
+{
+    border:solid 1px #777;
+    background-color:#ffa;
+    height:14px !IMPORTANT;
+    overflow:hidden;
+    text-align:center;
+}
+.tableCorner
+{
+    border:solid 1px #777;
+    background-color:#ffa;
+}
+.dark-cell.possibilities
+{
+    background-color:#d77;
+    border:solid 1px #040;
+}
+.light-cell.possibilities
+{
+    background-color:#d0d0d0;
+    border:solid 1px #040;
+}
